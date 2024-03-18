@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ADHD and note-taking</title>
+  <style>
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">ADHD and note-taking</h1>
+</header>
+<p>#note-taking</p>
+<h2 id="some-background">Some background</h2>
+<p><a href="https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/"><strong>Zettelkasten
+Method</strong></a> was originally a cards-based index thingy, that lots
+of these types of tools have drawn from. Worth knowing about. It’s has a
+sort of <em>write every day</em> ethos and ideas etc.</p>
+<p><a href="Zettelkasten Summary" title="wikilink">Zettelkasten
+Summary</a></p>
+<p><a href="Markdown Summary" title="wikilink">Markdown Summary</a></p>
+<h3 id="use-strategies-that-work-for-you-not-tools">Use Strategies That
+Work For You (not tools)</h3>
+<ul>
+<li><a href="https://www.brain.fm/">https://www.brain.fm/</a></li>
+<li><a href="https://www.ledger.com/blog/hacking-adhd-strategies-for-the-modern-developer">https://www.ledger.com/blog/hacking-adhd-strategies-for-the-modern-developer</a></li>
+<li>Really bad <a href="https://github.com/timsayshey/cringe-clock/blob/main/README.md">https://github.com/timsayshey/cringe-clock/blob/main/README.md</a></li>
+</ul>
+<figure>
+<img role="img" aria-label="anatomical_tube.jpeg" src="anatomical_tube.jpeg" title="wikilink" alt="anatomical_tube.jpeg" />
+<figcaption aria-hidden="true">anatomical_tube.jpeg</figcaption>
+</figure>
+<h3 id="an-aside">An aside</h3>
+<p>There are what’s called “static site generators” (Hugo, Gatsby,
+Jeckyll) that build a network of digital garden webpages out of a folder
+full of Markdown files (often on github). But they’re a bit geeky, but
+they do mean, everything is just a text file, meaning there’s no
+lock-in, and they can be easily shared etc. For these, you can just use
+<a href="https://macdown.uranusjr.com/">MacDown</a> and edit single <a href="http://markdown.md">markdown.md</a> files.</p>
+<h2 id="list-of-markdowndigital-garden-tools">List of Markdown/Digital
+Garden Tools</h2>
+<p>Having tried all of these, these are in the order of my preference,
+based on simplicity of interface mainly. I only use 10% of the features,
+haven’t even used exporting features, and don’t plan to use any collab
+nonsense because I find having a personal note book is what I use it
+for. Once a doc is ready to collaborate, I copy-n-paste into Google
+Docs.</p>
+<ul>
+<li><a href="https://www.notion.so/desktop">https://www.notion.so/desktop</a></li>
+<li><a href="https://logseq.com/">https://logseq.com/</a></li>
+<li><a href="https://anytype.io/">https://anytype.io/</a></li>
+<li><a href="https://www.zettlr.com/">https://www.zettlr.com/</a></li>
+<li><a href="https://joplinapp.org/">https://joplinapp.org/</a></li>
+<li><a href="https://simplenote.com/">https://simplenote.com/</a></li>
+<li><a href="https://notable.app/">https://notable.app/</a></li>
+</ul>
+<p>Obsidian is cool, has a number of plugins (that I never used) but
+their messaging on their ambitions/future direction spooked me. <a href="https://obsidian.md/">https://obsidian.md/</a></p>
+<h2 id="ai-tools">AI Tools</h2>
+<ul>
+<li>The Chat with PDF Tools I mentioned. <a href="https://www.chatpdf.com/">https://www.chatpdf.com/</a></li>
+<li>AI with an academic bent <a href="https://typeset.io/">https://typeset.io/</a></li>
+<li>See also: <a href="https://goblin.tools/">https://goblin.tools/</a></li>
+</ul>
+</body>
+</html>
